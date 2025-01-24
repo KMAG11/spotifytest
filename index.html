@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Song Recommendations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Spotify Song Recommendations</h1>
+    <p>Discover and enjoy songs! Search for your favorite tracks and add them to our recommendations.</p>
+  </header>
+
+  <main>
+    <!-- Form to search for songs -->
+    <section id="search">
+      <h2>Search for a Song</h2>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Enter song or artist name" required />
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <!-- Section to display search results -->
+    <section id="recommendations">
+      <h2>Search Results</h2>
+      <div id="song-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Spotify Recommendations</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
